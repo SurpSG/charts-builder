@@ -1,0 +1,23 @@
+Gender,First Name,Lastname ,Opened,TimeToOpen,Clicked,TimeToClick,Units
+M,FirstName1,LastName1,Y,8,Y,13,hours
+F,FirstName2,LastName2,N,0,N,0,hours
+M,FirstName3,LastName3,Y,1,Y,5,hours
+M,FirstName4,LastName4,Y,36,N,0,hours
+M,FirstName5,LastName5,Y,1,N,0,hours
+M,FirstName6,LastName6,Y,1,N,0,hours
+F,FirstName7,LastName7,Y,10,Y,11,hours
+F,FirstName8,LastName8,Y,6,Y,7,hours
+M,FirstName9,LastName9,N,0,N,0,hours
+M,FirstName10,LastName10,N,0,N,0,hours
+M,FirstName11,LastName11,Y,25,Y,28,hours
+M,FirstName12,LastName12,Y,3,N,0,hours
+M,FirstName13,LastName13,Y,13,Y,22,hours
+M,FirstName14,LastName14,N,0,N,0,hours
+M,FirstName15,LastName15,N,0,N,0,hours
+M,FirstName16,LastName16,Y,1,N,0,hours
+M,FirstName17,LastName17,N,0,N,0,hours
+M,FirstName18,LastName18,N,0,N,0,hours
+M,FirstName19,LastName19,Y,3,Y,10,hours
+M,FirstName20,LastName20,N,0,N,0,hours
+M,FirstName21,LastName21,Y,12,N,0,hours
+M,FirstName22,LastName22,N,0,N,0,hours

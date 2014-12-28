@@ -1,0 +1,71 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+        $('#container').highcharts({
+            title: {
+                text: '${title}',
+                x: -20 //center
+            },
+            subtitle: {
+                text: '${subtitle}',
+                x: -20
+            },
+			plotOptions: {
+                        spline: {
+                            turboThreshold: 2000,
+                            lineWidth: 2,
+                            }
+            },
+            xAxis: {title: {
+                    text: '${x_title}'
+                },
+				tickInterval: ${x_tik_interval}
+            },
+            yAxis: {
+                title: {
+                    text: '${y_title}'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }],
+				min:${y_min_value},
+				max:100
+            },
+            tooltip: {
+                valueSuffix: '${tooltip_suffix}'
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+            },
+            series: [
+				${series}
+            ]
+        });
+    });
+    
+
+		</script>
+	</head>
+	<body>
+<script src="./lib/js/highcharts.js"></script>
+<script src="./lib/js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 500px; height: 350px; margin: 0 auto"></div>
+
+	</body>
+</html>
